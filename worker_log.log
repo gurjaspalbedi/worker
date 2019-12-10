@@ -1,0 +1,477 @@
+2019-12-09 16:38:01,605 - root - INFO - Starting Process for store
+2019-12-09 16:38:01,611 - root - INFO - Client channel established with the store
+2019-12-09 16:41:02,124 - root - INFO - Starting Process for store
+2019-12-09 16:41:02,126 - root - INFO - Client channel established with the store
+2019-12-09 16:41:04,554 - root - INFO - Starting Process for store
+2019-12-09 16:41:04,557 - root - INFO - Client channel established with the store
+2019-12-09 16:41:06,989 - root - INFO - Starting Process for store
+2019-12-09 16:41:06,991 - root - INFO - Client channel established with the store
+2019-12-09 16:42:14,724 - root - INFO - Starting Process for store
+2019-12-09 16:42:14,726 - root - INFO - Client channel established with the store
+2019-12-09 16:53:13,140 - root - INFO - Starting Process for store
+2019-12-09 16:53:13,143 - root - INFO - Client channel established with the store
+2019-12-09 16:53:13,143 - root - WARNING - Map reduce started
+2019-12-09 16:53:13,143 - root - WARNING - Dividing data in chunks- START
+2019-12-09 16:53:48,034 - root - INFO - Starting Process for store
+2019-12-09 16:53:48,037 - root - INFO - Client channel established with the store
+2019-12-09 16:53:48,037 - root - WARNING - Map reduce started
+2019-12-09 16:53:48,037 - root - WARNING - Dividing data in chunks- START
+2019-12-09 16:57:21,632 - root - INFO - Starting Process for store
+2019-12-09 16:57:21,636 - root - INFO - Client channel established with the store
+2019-12-09 17:02:06,811 - root - INFO - Starting Process for store
+2019-12-09 17:02:06,815 - root - INFO - Client channel established with the store
+2019-12-09 17:02:06,815 - root - WARNING - Making RPC call to store
+2019-12-09 17:05:05,011 - root - INFO - Starting Process for store
+2019-12-09 17:05:05,014 - root - INFO - Client channel established with the store
+2019-12-09 17:05:05,015 - root - WARNING - Making RPC call to store
+2019-12-09 17:05:17,133 - root - INFO - Starting Process for store
+2019-12-09 17:05:17,136 - root - INFO - Client channel established with the store
+2019-12-09 17:05:17,137 - root - WARNING - Making RPC call to store
+2019-12-09 17:05:46,110 - root - INFO - Starting Process for store
+2019-12-09 17:05:46,113 - root - INFO - Client channel established with the store
+2019-12-09 17:05:46,114 - root - WARNING - Making RPC call to store
+2019-12-09 17:06:12,299 - root - INFO - Starting Process for store
+2019-12-09 17:06:12,302 - root - INFO - Client channel established with the store
+2019-12-09 17:06:12,303 - root - WARNING - Making RPC call to store
+2019-12-09 17:07:31,696 - root - INFO - Starting Process for store
+2019-12-09 17:07:31,705 - root - INFO - Client channel established with the store
+2019-12-09 17:09:26,903 - root - INFO - Starting Process for store
+2019-12-09 17:09:26,906 - root - INFO - Client channel established with the store
+2019-12-09 17:09:26,906 - root - WARNING - Making RPC call to store
+2019-12-09 17:14:09,479 - root - INFO - Starting Process for store
+2019-12-09 17:14:09,482 - root - INFO - Client channel established with the store
+2019-12-09 17:14:09,482 - root - WARNING - Making RPC call to store
+2019-12-09 17:20:24,805 - root - INFO - Starting Process for store
+2019-12-09 17:20:24,807 - root - INFO - Client channel established with the store
+2019-12-09 17:20:24,808 - root - WARNING - Making RPC call to store
+2019-12-09 17:21:02,254 - root - INFO - Starting Process for store
+2019-12-09 17:21:02,257 - root - INFO - Client channel established with the store
+2019-12-09 17:21:02,257 - root - WARNING - Map reduce started
+2019-12-09 17:21:02,258 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:24:34,744 - root - INFO - Starting Process for store
+2019-12-09 17:24:34,748 - root - INFO - Client channel established with the store
+2019-12-09 17:24:34,748 - root - WARNING - Map reduce started
+2019-12-09 17:24:34,748 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:24:46,106 - root - INFO - Starting Process for store
+2019-12-09 17:24:46,109 - root - INFO - Client channel established with the store
+2019-12-09 17:24:46,110 - root - WARNING - Map reduce started
+2019-12-09 17:24:46,111 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:26:42,376 - root - INFO - Starting Process for store
+2019-12-09 17:26:42,379 - root - INFO - Client channel established with the store
+2019-12-09 17:26:42,380 - root - WARNING - Map reduce started
+2019-12-09 17:26:42,380 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:28:11,718 - root - INFO - Starting Process for store
+2019-12-09 17:28:11,721 - root - INFO - Client channel established with the store
+2019-12-09 17:28:11,722 - root - WARNING - Map reduce started
+2019-12-09 17:28:11,723 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:28:54,102 - root - INFO - Starting Process for store
+2019-12-09 17:28:54,105 - root - INFO - Client channel established with the store
+2019-12-09 17:28:54,106 - root - WARNING - Map reduce started
+2019-12-09 17:28:54,107 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:28:54,140 - root - WARNING - SAVE INTERMEDIATE DATA: Trying to store initial data from mapper 0:mapper_input:word_count
+2019-12-09 17:28:54,144 - root - WARNING - Making RPC call to store
+2019-12-09 17:28:54,159 - root - WARNING - SAVE INTERMEDIATE DATA: Trying to store initial data from mapper 0:mapper_input:word_count
+2019-12-09 17:28:54,160 - root - WARNING - Making RPC call to store
+2019-12-09 17:28:54,164 - root - WARNING - SAVE INTERMEDIATE DATA: Trying to store initial data from mapper 0:mapper_input:word_count
+2019-12-09 17:28:54,165 - root - WARNING - Making RPC call to store
+2019-12-09 17:28:54,167 - root - WARNING - SAVE INTERMEDIATE DATA: Trying to store initial data from mapper 0:mapper_input:word_count
+2019-12-09 17:28:54,167 - root - WARNING - Making RPC call to store
+2019-12-09 17:28:54,169 - root - WARNING - SAVE INTERMEDIATE DATA: Trying to store initial data from mapper 0:mapper_input:word_count
+2019-12-09 17:28:54,169 - root - WARNING - Making RPC call to store
+2019-12-09 17:36:23,597 - root - INFO - Starting Process for store
+2019-12-09 17:36:23,601 - root - INFO - Client channel established with the store
+2019-12-09 17:36:23,602 - root - WARNING - Map reduce started
+2019-12-09 17:36:23,603 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:36:23,603 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:36:23,604 - root - WARNING - Making RPC call to store
+2019-12-09 17:36:23,607 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:36:23,607 - root - WARNING - Making RPC call to store
+2019-12-09 17:36:23,616 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:36:23,616 - root - WARNING - Making RPC call to store
+2019-12-09 17:36:23,626 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:36:23,626 - root - WARNING - Making RPC call to store
+2019-12-09 17:36:23,630 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:36:23,631 - root - WARNING - Making RPC call to store
+2019-12-09 17:42:37,012 - root - INFO - Starting Process for store
+2019-12-09 17:42:37,015 - root - INFO - Client channel established with the store
+2019-12-09 17:42:37,016 - root - WARNING - Map reduce started
+2019-12-09 17:42:37,016 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:42:37,017 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:42:37,017 - root - WARNING - Making RPC call to store
+2019-12-09 17:42:37,020 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:42:37,021 - root - WARNING - Making RPC call to store
+2019-12-09 17:42:37,030 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:42:37,030 - root - WARNING - Making RPC call to store
+2019-12-09 17:42:37,032 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:42:37,033 - root - WARNING - Making RPC call to store
+2019-12-09 17:42:37,036 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:42:37,036 - root - WARNING - Making RPC call to store
+2019-12-09 17:42:37,044 - root - WARNING - Making RPC call to store
+2019-12-09 17:43:59,040 - root - INFO - Starting Process for store
+2019-12-09 17:43:59,043 - root - INFO - Client channel established with the store
+2019-12-09 17:43:59,044 - root - WARNING - Map reduce started
+2019-12-09 17:43:59,045 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:43:59,046 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:43:59,046 - root - WARNING - Making RPC call to store
+2019-12-09 17:43:59,049 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:43:59,050 - root - WARNING - Making RPC call to store
+2019-12-09 17:43:59,056 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:43:59,057 - root - WARNING - Making RPC call to store
+2019-12-09 17:43:59,059 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:43:59,059 - root - WARNING - Making RPC call to store
+2019-12-09 17:43:59,062 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:43:59,062 - root - WARNING - Making RPC call to store
+2019-12-09 17:43:59,064 - root - WARNING - Making RPC call to store
+2019-12-09 17:45:44,958 - root - INFO - Starting Process for store
+2019-12-09 17:45:44,961 - root - INFO - Client channel established with the store
+2019-12-09 17:45:44,961 - root - WARNING - Map reduce started
+2019-12-09 17:45:44,961 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:45:44,962 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:45:44,962 - root - WARNING - Making RPC call to store
+2019-12-09 17:45:44,965 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:45:44,965 - root - WARNING - Making RPC call to store
+2019-12-09 17:45:44,972 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:45:44,973 - root - WARNING - Making RPC call to store
+2019-12-09 17:45:44,975 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:45:44,975 - root - WARNING - Making RPC call to store
+2019-12-09 17:45:44,977 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:45:44,978 - root - WARNING - Making RPC call to store
+2019-12-09 17:45:44,979 - root - WARNING - Making RPC call to store
+2019-12-09 17:46:05,303 - root - INFO - Starting Process for store
+2019-12-09 17:46:05,306 - root - INFO - Client channel established with the store
+2019-12-09 17:46:05,306 - root - WARNING - Map reduce started
+2019-12-09 17:46:05,307 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:46:05,307 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:46:05,308 - root - WARNING - Making RPC call to store
+2019-12-09 17:46:05,310 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:46:05,311 - root - WARNING - Making RPC call to store
+2019-12-09 17:46:05,318 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:46:05,318 - root - WARNING - Making RPC call to store
+2019-12-09 17:46:05,320 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:46:05,321 - root - WARNING - Making RPC call to store
+2019-12-09 17:46:05,329 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:46:05,329 - root - WARNING - Making RPC call to store
+2019-12-09 17:46:05,331 - root - WARNING - Making RPC call to store
+2019-12-09 17:46:07,199 - root - INFO - Starting Process for store
+2019-12-09 17:46:07,202 - root - INFO - Client channel established with the store
+2019-12-09 17:46:07,203 - root - WARNING - Map reduce started
+2019-12-09 17:46:07,204 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:46:07,204 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:46:07,205 - root - WARNING - Making RPC call to store
+2019-12-09 17:46:07,207 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:46:07,208 - root - WARNING - Making RPC call to store
+2019-12-09 17:46:07,215 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:46:07,216 - root - WARNING - Making RPC call to store
+2019-12-09 17:46:07,218 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:46:07,218 - root - WARNING - Making RPC call to store
+2019-12-09 17:46:07,221 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:46:07,221 - root - WARNING - Making RPC call to store
+2019-12-09 17:46:07,223 - root - WARNING - Making RPC call to store
+2019-12-09 17:47:29,622 - root - INFO - Starting Process for store
+2019-12-09 17:47:29,630 - root - INFO - Client channel established with the store
+2019-12-09 17:47:29,631 - root - WARNING - Map reduce started
+2019-12-09 17:47:29,632 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:47:29,632 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:47:29,633 - root - WARNING - Making RPC call to store
+2019-12-09 17:47:29,635 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:47:29,635 - root - WARNING - Making RPC call to store
+2019-12-09 17:47:29,637 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:47:29,637 - root - WARNING - Making RPC call to store
+2019-12-09 17:47:29,639 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:47:29,639 - root - WARNING - Making RPC call to store
+2019-12-09 17:47:29,641 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:47:29,641 - root - WARNING - Making RPC call to store
+2019-12-09 17:47:29,653 - root - WARNING - Making RPC call to store
+2019-12-09 17:48:10,299 - root - INFO - Starting Process for store
+2019-12-09 17:48:10,302 - root - INFO - Client channel established with the store
+2019-12-09 17:48:10,302 - root - WARNING - Map reduce started
+2019-12-09 17:48:10,302 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:48:10,302 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:48:10,303 - root - WARNING - Making RPC call to store
+2019-12-09 17:48:10,306 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:48:10,306 - root - WARNING - Making RPC call to store
+2019-12-09 17:48:10,315 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:48:10,315 - root - WARNING - Making RPC call to store
+2019-12-09 17:48:10,318 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:48:10,318 - root - WARNING - Making RPC call to store
+2019-12-09 17:48:10,319 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:48:10,319 - root - WARNING - Making RPC call to store
+2019-12-09 17:48:10,321 - root - WARNING - Making RPC call to store
+2019-12-09 17:49:47,377 - root - INFO - Starting Process for store
+2019-12-09 17:49:47,390 - root - INFO - Client channel established with the store
+2019-12-09 17:49:47,392 - root - WARNING - Map reduce started
+2019-12-09 17:49:47,392 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:49:47,393 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:49:47,394 - root - WARNING - Making RPC call to store
+2019-12-09 17:49:47,406 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:49:47,407 - root - WARNING - Making RPC call to store
+2019-12-09 17:49:47,419 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:49:47,420 - root - WARNING - Making RPC call to store
+2019-12-09 17:49:47,423 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:49:47,423 - root - WARNING - Making RPC call to store
+2019-12-09 17:49:47,437 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:49:47,438 - root - WARNING - Making RPC call to store
+2019-12-09 17:49:47,454 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:21,744 - root - INFO - Starting Process for store
+2019-12-09 17:50:21,747 - root - INFO - Client channel established with the store
+2019-12-09 17:50:21,757 - root - WARNING - Map reduce started
+2019-12-09 17:50:21,758 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:50:21,759 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:50:21,759 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:21,763 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:50:21,763 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:21,769 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:50:21,769 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:21,780 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:50:21,780 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:21,782 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:50:21,782 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:21,784 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:32,448 - root - INFO - Starting Process for store
+2019-12-09 17:50:32,451 - root - INFO - Client channel established with the store
+2019-12-09 17:50:32,461 - root - WARNING - Map reduce started
+2019-12-09 17:50:32,461 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:50:32,462 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:50:32,463 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:32,466 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:50:32,466 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:32,473 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:50:32,474 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:32,475 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:50:32,475 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:32,477 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:50:32,478 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:32,490 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:51,798 - root - INFO - Starting Process for store
+2019-12-09 17:50:51,801 - root - INFO - Client channel established with the store
+2019-12-09 17:50:51,811 - root - WARNING - Map reduce started
+2019-12-09 17:50:51,812 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:50:51,813 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:50:51,814 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:51,817 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:50:51,818 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:51,825 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:50:51,825 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:51,828 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:50:51,829 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:51,840 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:50:51,840 - root - WARNING - Making RPC call to store
+2019-12-09 17:50:51,842 - root - WARNING - Making RPC call to store
+2019-12-09 17:51:31,753 - root - INFO - Starting Process for store
+2019-12-09 17:51:31,766 - root - INFO - Client channel established with the store
+2019-12-09 17:51:31,766 - root - WARNING - Map reduce started
+2019-12-09 17:51:31,767 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:51:31,768 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:51:31,768 - root - WARNING - Making RPC call to store
+2019-12-09 17:51:31,771 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:51:31,772 - root - WARNING - Making RPC call to store
+2019-12-09 17:51:31,788 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:51:31,788 - root - WARNING - Making RPC call to store
+2019-12-09 17:51:31,792 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:51:31,792 - root - WARNING - Making RPC call to store
+2019-12-09 17:51:31,792 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:51:31,793 - root - WARNING - Making RPC call to store
+2019-12-09 17:51:31,805 - root - WARNING - Making RPC call to store
+2019-12-09 17:53:16,376 - root - INFO - Starting Process for store
+2019-12-09 17:53:16,388 - root - INFO - Client channel established with the store
+2019-12-09 17:53:16,388 - root - WARNING - Map reduce started
+2019-12-09 17:53:16,389 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:53:16,390 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:53:16,390 - root - WARNING - Making RPC call to store
+2019-12-09 17:53:16,393 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:53:16,393 - root - WARNING - Making RPC call to store
+2019-12-09 17:53:16,409 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:53:16,409 - root - WARNING - Making RPC call to store
+2019-12-09 17:53:16,411 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:53:16,412 - root - WARNING - Making RPC call to store
+2019-12-09 17:53:16,413 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:53:16,413 - root - WARNING - Making RPC call to store
+2019-12-09 17:53:16,415 - root - WARNING - Making RPC call to store
+2019-12-09 17:53:57,508 - root - INFO - Starting Process for store
+2019-12-09 17:53:57,511 - root - INFO - Client channel established with the store
+2019-12-09 17:53:57,521 - root - WARNING - Map reduce started
+2019-12-09 17:53:57,521 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:53:57,522 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:53:57,523 - root - WARNING - Making RPC call to store
+2019-12-09 17:53:57,526 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:53:57,526 - root - WARNING - Making RPC call to store
+2019-12-09 17:53:57,544 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:53:57,544 - root - WARNING - Making RPC call to store
+2019-12-09 17:53:57,545 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:53:57,545 - root - WARNING - Making RPC call to store
+2019-12-09 17:53:57,547 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:53:57,547 - root - WARNING - Making RPC call to store
+2019-12-09 17:53:57,549 - root - WARNING - Making RPC call to store
+2019-12-09 17:55:12,808 - root - INFO - Starting Process for store
+2019-12-09 17:55:12,820 - root - INFO - Client channel established with the store
+2019-12-09 17:55:12,821 - root - WARNING - Map reduce started
+2019-12-09 17:55:12,821 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:55:12,822 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:55:12,822 - root - WARNING - Making RPC call to store
+2019-12-09 17:55:12,825 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:55:12,825 - root - WARNING - Making RPC call to store
+2019-12-09 17:55:12,839 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:55:12,840 - root - WARNING - Making RPC call to store
+2019-12-09 17:55:12,842 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:55:12,842 - root - WARNING - Making RPC call to store
+2019-12-09 17:55:12,844 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:55:12,844 - root - WARNING - Making RPC call to store
+2019-12-09 17:55:12,857 - root - WARNING - Making RPC call to store
+2019-12-09 17:55:32,747 - root - INFO - Starting Process for store
+2019-12-09 17:55:32,759 - root - INFO - Client channel established with the store
+2019-12-09 17:55:32,759 - root - WARNING - Map reduce started
+2019-12-09 17:55:32,760 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:55:32,761 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:55:32,761 - root - WARNING - Making RPC call to store
+2019-12-09 17:55:32,776 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:55:32,776 - root - WARNING - Making RPC call to store
+2019-12-09 17:55:32,778 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:55:32,779 - root - WARNING - Making RPC call to store
+2019-12-09 17:55:32,795 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:55:32,796 - root - WARNING - Making RPC call to store
+2019-12-09 17:55:32,810 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:55:32,811 - root - WARNING - Making RPC call to store
+2019-12-09 17:55:32,813 - root - WARNING - Making RPC call to store
+2019-12-09 17:56:28,682 - root - INFO - Starting Process for store
+2019-12-09 17:56:28,694 - root - INFO - Client channel established with the store
+2019-12-09 17:56:28,695 - root - WARNING - Map reduce started
+2019-12-09 17:56:28,695 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:56:28,696 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:56:28,697 - root - WARNING - Making RPC call to store
+2019-12-09 17:56:28,700 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:56:28,700 - root - WARNING - Making RPC call to store
+2019-12-09 17:56:28,709 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:56:28,709 - root - WARNING - Making RPC call to store
+2019-12-09 17:56:28,720 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:56:28,720 - root - WARNING - Making RPC call to store
+2019-12-09 17:56:28,723 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:56:28,723 - root - WARNING - Making RPC call to store
+2019-12-09 17:56:28,725 - root - WARNING - Making RPC call to store
+2019-12-09 17:56:57,991 - root - INFO - Starting Process for store
+2019-12-09 17:56:58,002 - root - INFO - Client channel established with the store
+2019-12-09 17:56:58,002 - root - WARNING - Map reduce started
+2019-12-09 17:56:58,003 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:56:58,004 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:56:58,004 - root - WARNING - Making RPC call to store
+2019-12-09 17:56:58,007 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:56:58,007 - root - WARNING - Making RPC call to store
+2019-12-09 17:56:58,015 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:56:58,015 - root - WARNING - Making RPC call to store
+2019-12-09 17:56:58,017 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:56:58,017 - root - WARNING - Making RPC call to store
+2019-12-09 17:56:58,029 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:56:58,029 - root - WARNING - Making RPC call to store
+2019-12-09 17:56:58,031 - root - WARNING - Making RPC call to store
+2019-12-09 17:57:59,475 - root - INFO - Starting Process for store
+2019-12-09 17:57:59,486 - root - INFO - Client channel established with the store
+2019-12-09 17:57:59,487 - root - WARNING - Map reduce started
+2019-12-09 17:57:59,488 - root - WARNING - Dividing data in chunks- START
+2019-12-09 17:57:59,488 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 17:57:59,489 - root - WARNING - Making RPC call to store
+2019-12-09 17:57:59,492 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 17:57:59,492 - root - WARNING - Making RPC call to store
+2019-12-09 17:57:59,500 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 17:57:59,500 - root - WARNING - Making RPC call to store
+2019-12-09 17:57:59,502 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 17:57:59,502 - root - WARNING - Making RPC call to store
+2019-12-09 17:57:59,514 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 17:57:59,514 - root - WARNING - Making RPC call to store
+2019-12-09 17:57:59,517 - root - WARNING - Making RPC call to store
+2019-12-09 18:01:32,067 - root - INFO - Starting Process for store
+2019-12-09 18:01:32,076 - root - INFO - Client channel established with the store
+2019-12-09 18:01:32,076 - root - WARNING - Map reduce started
+2019-12-09 18:01:32,077 - root - WARNING - Dividing data in chunks- START
+2019-12-09 18:01:32,078 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 18:01:32,078 - root - WARNING - Making RPC call to store
+2019-12-09 18:01:32,087 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 18:01:32,087 - root - WARNING - Making RPC call to store
+2019-12-09 18:01:32,092 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 18:01:32,092 - root - WARNING - Making RPC call to store
+2019-12-09 18:01:32,094 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 18:01:32,094 - root - WARNING - Making RPC call to store
+2019-12-09 18:01:32,096 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 18:01:32,096 - root - WARNING - Making RPC call to store
+2019-12-09 18:01:32,097 - root - WARNING - Making RPC call to store
+2019-12-09 18:02:26,001 - root - INFO - Starting Process for store
+2019-12-09 18:02:26,003 - root - INFO - Client channel established with the store
+2019-12-09 18:02:26,003 - root - WARNING - Map reduce started
+2019-12-09 18:02:26,004 - root - WARNING - Dividing data in chunks- START
+2019-12-09 18:02:26,004 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 18:02:26,005 - root - WARNING - Making RPC call to store
+2019-12-09 18:02:26,008 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 18:02:26,008 - root - WARNING - Making RPC call to store
+2019-12-09 18:02:26,016 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 18:02:26,017 - root - WARNING - Making RPC call to store
+2019-12-09 18:02:26,019 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 18:02:26,019 - root - WARNING - Making RPC call to store
+2019-12-09 18:02:26,021 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 18:02:26,021 - root - WARNING - Making RPC call to store
+2019-12-09 18:02:26,022 - root - WARNING - Making RPC call to store
+2019-12-09 18:02:26,024 - root - WARNING - Making RPC call to store
+2019-12-09 18:02:26,026 - root - WARNING - Making RPC call to store
+2019-12-09 18:02:26,036 - root - WARNING - Making RPC call to store
+2019-12-09 18:02:26,038 - root - WARNING - Making RPC call to store
+2019-12-09 18:03:25,959 - root - INFO - Starting Process for store
+2019-12-09 18:03:25,965 - root - INFO - Client channel established with the store
+2019-12-09 18:03:25,966 - root - WARNING - Map reduce started
+2019-12-09 18:03:25,966 - root - WARNING - Dividing data in chunks- START
+2019-12-09 18:03:25,967 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:0
+2019-12-09 18:03:25,967 - root - WARNING - Making RPC call to store
+2019-12-09 18:03:25,971 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:1
+2019-12-09 18:03:25,971 - root - WARNING - Making RPC call to store
+2019-12-09 18:03:25,983 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:2
+2019-12-09 18:03:25,983 - root - WARNING - Making RPC call to store
+2019-12-09 18:03:25,985 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:3
+2019-12-09 18:03:25,985 - root - WARNING - Making RPC call to store
+2019-12-09 18:03:25,987 - root - WARNING - SAVE INITIAL DATA: Trying to store initial data from mapper 0:mapper:word_count:4
+2019-12-09 18:03:25,987 - root - WARNING - Making RPC call to store
+2019-12-09 18:03:25,988 - root - WARNING - Making RPC call to store
+2019-12-09 18:03:25,990 - root - WARNING - Making RPC call to store
+2019-12-09 18:03:25,998 - root - WARNING - Making RPC call to store
+2019-12-09 18:03:26,002 - root - WARNING - Making RPC call to store
+2019-12-09 18:03:26,004 - root - WARNING - Making RPC call to store
+2019-12-09 18:52:36,646 - root - INFO - Starting Worker
+2019-12-09 18:52:36,653 - root - INFO - Client channel established with the store
+2019-12-09 18:54:18,755 - root - INFO - Starting Worker
+2019-12-09 18:54:18,764 - root - INFO - Client channel established with the store
+2019-12-09 18:57:55,250 - root - INFO - Starting Worker
+2019-12-09 18:57:55,258 - root - INFO - Client channel established with the store
+2019-12-09 19:07:30,291 - root - INFO - Starting Worker
+2019-12-09 19:07:30,294 - root - INFO - Client channel established with the store
+2019-12-09 19:07:41,884 - root - INFO - Starting Worker
+2019-12-09 19:07:41,891 - root - INFO - Client channel established with the store
+2019-12-09 19:26:28,725 - root - INFO - Starting Worker
+2019-12-09 19:26:28,728 - root - INFO - Client channel established with the store
+2019-12-09 19:28:27,305 - root - INFO - Starting Worker
+2019-12-09 19:28:27,312 - root - INFO - Client channel established with the store
+2019-12-09 19:45:47,669 - root - INFO - Starting Worker
+2019-12-09 19:45:47,672 - root - INFO - Client channel established with the store
+2019-12-09 19:47:33,790 - root - INFO - Starting Worker
+2019-12-09 19:47:33,793 - root - INFO - Client channel established with the store
+2019-12-09 19:47:33,820 - root - CRITICAL - Failed to start the worker
+2019-12-09 19:54:21,251 - root - INFO - Starting Worker
+2019-12-09 19:54:21,258 - root - INFO - Client channel established with the store
+2019-12-09 19:54:21,281 - root - CRITICAL - Failed to start the worker
+2019-12-09 19:54:43,392 - root - INFO - Starting Worker
+2019-12-09 19:54:43,398 - root - INFO - Client channel established with the store
+2019-12-09 19:54:43,425 - root - CRITICAL - Failed to start the worker
+2019-12-09 19:55:08,206 - root - INFO - Starting Worker
+2019-12-09 19:55:08,213 - root - INFO - Client channel established with the store
+2019-12-09 19:55:08,245 - root - CRITICAL - Failed to start the worker
+2019-12-09 19:55:43,918 - root - INFO - Starting Worker
+2019-12-09 19:55:43,921 - root - INFO - Client channel established with the store
+2019-12-09 19:55:43,947 - root - CRITICAL - Failed to start the worker
+2019-12-09 19:56:13,877 - root - INFO - Starting Worker
+2019-12-09 19:56:13,880 - root - INFO - Client channel established with the store
+2019-12-09 19:56:13,908 - root - CRITICAL - Failed to start the worker
+2019-12-09 19:57:22,388 - root - INFO - Starting Worker
+2019-12-09 19:57:22,396 - root - INFO - Client channel established with the store
+2019-12-09 19:57:22,423 - root - CRITICAL - Failed to start the worker
+2019-12-09 19:58:02,267 - root - INFO - Starting Worker
+2019-12-09 19:58:02,274 - root - INFO - Client channel established with the store
+2019-12-09 19:58:26,098 - root - INFO - Starting Worker
+2019-12-09 19:58:26,101 - root - INFO - Client channel established with the store
+2019-12-09 20:05:31,180 - root - INFO - Starting Worker
+2019-12-09 20:05:31,185 - root - INFO - Client channel established with the store
+2019-12-09 20:05:34,349 - root - INFO - Starting Worker
+2019-12-09 20:05:34,355 - root - INFO - Client channel established with the store
