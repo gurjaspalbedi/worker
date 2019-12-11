@@ -19,11 +19,13 @@ message mapper_response {
     repeated tuple result = 1;
 }
 
-message ping_request {
-    string data = 1;
+message address {
+    string name = 1;
+    string ip = 2;
+    int32 port = 3;
 }
 
-message ping_response {
+message connection_response {
     string data = 1;
 }
 
@@ -38,7 +40,7 @@ message reducer_request {
 
 service Worker {
 
-    rpc ping(ping_request) returns (ping_response) {} 
     rpc worker_map(mapper_request) returns (mapper_response) {}
+    rpc connect_to_store(address) returns (connection_response) {}
     rpc worker_reducer(reducer_request) returns (reducer_response) {}
 }

@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n\x0cworker.proto\"H\n\x0emapper_request\x12\x11\n\tfile_name\x18\x01 \x01(\t\x12\r\n\x05lines\x18\x02 \x03(\t\x12\x14\n\x0cmap_function\x18\x03 \x01(\t\"#\n\x05tuple\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t\"$\n\ntuple_list\x12\x16\n\x06result\x18\x01 \x03(\x0b\x32\x06.tuple\")\n\x0fmapper_response\x12\x16\n\x06result\x18\x01 \x03(\x0b\x32\x06.tuple\"\x1c\n\x0cping_request\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\t\"\x1d\n\rping_response\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\t\"*\n\x10reducer_response\x12\x16\n\x06result\x18\x01 \x03(\x0b\x32\x06.tuple\"C\n\x0freducer_request\x12\x18\n\x10reducer_function\x18\x01 \x01(\t\x12\x16\n\x06result\x18\x02 \x03(\x0b\x32\x06.tuple2\x9d\x01\n\x06Worker\x12\'\n\x04ping\x12\r.ping_request\x1a\x0e.ping_response\"\x00\x12\x31\n\nworker_map\x12\x0f.mapper_request\x1a\x10.mapper_response\"\x00\x12\x37\n\x0eworker_reducer\x12\x10.reducer_request\x1a\x11.reducer_response\"\x00\x62\x06proto3')
+  serialized_pb=_b('\n\x0cworker.proto\"H\n\x0emapper_request\x12\x11\n\tfile_name\x18\x01 \x01(\t\x12\r\n\x05lines\x18\x02 \x03(\t\x12\x14\n\x0cmap_function\x18\x03 \x01(\t\"#\n\x05tuple\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t\"$\n\ntuple_list\x12\x16\n\x06result\x18\x01 \x03(\x0b\x32\x06.tuple\")\n\x0fmapper_response\x12\x16\n\x06result\x18\x01 \x03(\x0b\x32\x06.tuple\"1\n\x07\x61\x64\x64ress\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\n\n\x02ip\x18\x02 \x01(\t\x12\x0c\n\x04port\x18\x03 \x01(\x05\"#\n\x13\x63onnection_response\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\t\"*\n\x10reducer_response\x12\x16\n\x06result\x18\x01 \x03(\x0b\x32\x06.tuple\"C\n\x0freducer_request\x12\x18\n\x10reducer_function\x18\x01 \x01(\t\x12\x16\n\x06result\x18\x02 \x03(\x0b\x32\x06.tuple2\xaa\x01\n\x06Worker\x12\x31\n\nworker_map\x12\x0f.mapper_request\x1a\x10.mapper_response\"\x00\x12\x34\n\x10\x63onnect_to_store\x12\x08.address\x1a\x14.connection_response\"\x00\x12\x37\n\x0eworker_reducer\x12\x10.reducer_request\x1a\x11.reducer_response\"\x00\x62\x06proto3')
 )
 
 
@@ -171,17 +171,31 @@ _MAPPER_RESPONSE = _descriptor.Descriptor(
 )
 
 
-_PING_REQUEST = _descriptor.Descriptor(
-  name='ping_request',
-  full_name='ping_request',
+_ADDRESS = _descriptor.Descriptor(
+  name='address',
+  full_name='address',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='data', full_name='ping_request.data', index=0,
+      name='name', full_name='address.name', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='ip', full_name='address.ip', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='port', full_name='address.port', index=2,
+      number=3, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -198,19 +212,19 @@ _PING_REQUEST = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=208,
-  serialized_end=236,
+  serialized_end=257,
 )
 
 
-_PING_RESPONSE = _descriptor.Descriptor(
-  name='ping_response',
-  full_name='ping_response',
+_CONNECTION_RESPONSE = _descriptor.Descriptor(
+  name='connection_response',
+  full_name='connection_response',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='data', full_name='ping_response.data', index=0,
+      name='data', full_name='connection_response.data', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
@@ -228,8 +242,8 @@ _PING_RESPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=238,
-  serialized_end=267,
+  serialized_start=259,
+  serialized_end=294,
 )
 
 
@@ -259,8 +273,8 @@ _REDUCER_RESPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=269,
-  serialized_end=311,
+  serialized_start=296,
+  serialized_end=338,
 )
 
 
@@ -297,8 +311,8 @@ _REDUCER_REQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=313,
-  serialized_end=380,
+  serialized_start=340,
+  serialized_end=407,
 )
 
 _TUPLE_LIST.fields_by_name['result'].message_type = _TUPLE
@@ -309,8 +323,8 @@ DESCRIPTOR.message_types_by_name['mapper_request'] = _MAPPER_REQUEST
 DESCRIPTOR.message_types_by_name['tuple'] = _TUPLE
 DESCRIPTOR.message_types_by_name['tuple_list'] = _TUPLE_LIST
 DESCRIPTOR.message_types_by_name['mapper_response'] = _MAPPER_RESPONSE
-DESCRIPTOR.message_types_by_name['ping_request'] = _PING_REQUEST
-DESCRIPTOR.message_types_by_name['ping_response'] = _PING_RESPONSE
+DESCRIPTOR.message_types_by_name['address'] = _ADDRESS
+DESCRIPTOR.message_types_by_name['connection_response'] = _CONNECTION_RESPONSE
 DESCRIPTOR.message_types_by_name['reducer_response'] = _REDUCER_RESPONSE
 DESCRIPTOR.message_types_by_name['reducer_request'] = _REDUCER_REQUEST
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
@@ -343,19 +357,19 @@ mapper_response = _reflection.GeneratedProtocolMessageType('mapper_response', (_
   })
 _sym_db.RegisterMessage(mapper_response)
 
-ping_request = _reflection.GeneratedProtocolMessageType('ping_request', (_message.Message,), {
-  'DESCRIPTOR' : _PING_REQUEST,
+address = _reflection.GeneratedProtocolMessageType('address', (_message.Message,), {
+  'DESCRIPTOR' : _ADDRESS,
   '__module__' : 'worker_pb2'
-  # @@protoc_insertion_point(class_scope:ping_request)
+  # @@protoc_insertion_point(class_scope:address)
   })
-_sym_db.RegisterMessage(ping_request)
+_sym_db.RegisterMessage(address)
 
-ping_response = _reflection.GeneratedProtocolMessageType('ping_response', (_message.Message,), {
-  'DESCRIPTOR' : _PING_RESPONSE,
+connection_response = _reflection.GeneratedProtocolMessageType('connection_response', (_message.Message,), {
+  'DESCRIPTOR' : _CONNECTION_RESPONSE,
   '__module__' : 'worker_pb2'
-  # @@protoc_insertion_point(class_scope:ping_response)
+  # @@protoc_insertion_point(class_scope:connection_response)
   })
-_sym_db.RegisterMessage(ping_response)
+_sym_db.RegisterMessage(connection_response)
 
 reducer_response = _reflection.GeneratedProtocolMessageType('reducer_response', (_message.Message,), {
   'DESCRIPTOR' : _REDUCER_RESPONSE,
@@ -379,25 +393,25 @@ _WORKER = _descriptor.ServiceDescriptor(
   file=DESCRIPTOR,
   index=0,
   serialized_options=None,
-  serialized_start=383,
-  serialized_end=540,
+  serialized_start=410,
+  serialized_end=580,
   methods=[
-  _descriptor.MethodDescriptor(
-    name='ping',
-    full_name='Worker.ping',
-    index=0,
-    containing_service=None,
-    input_type=_PING_REQUEST,
-    output_type=_PING_RESPONSE,
-    serialized_options=None,
-  ),
   _descriptor.MethodDescriptor(
     name='worker_map',
     full_name='Worker.worker_map',
-    index=1,
+    index=0,
     containing_service=None,
     input_type=_MAPPER_REQUEST,
     output_type=_MAPPER_RESPONSE,
+    serialized_options=None,
+  ),
+  _descriptor.MethodDescriptor(
+    name='connect_to_store',
+    full_name='Worker.connect_to_store',
+    index=1,
+    containing_service=None,
+    input_type=_ADDRESS,
+    output_type=_CONNECTION_RESPONSE,
     serialized_options=None,
   ),
   _descriptor.MethodDescriptor(

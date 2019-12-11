@@ -475,3 +475,510 @@
 2019-12-09 20:05:31,185 - root - INFO - Client channel established with the store
 2019-12-09 20:05:34,349 - root - INFO - Starting Worker
 2019-12-09 20:05:34,355 - root - INFO - Client channel established with the store
+2019-12-09 20:06:09,123 - root - INFO - Starting Worker
+2019-12-09 20:06:09,126 - root - INFO - Client channel established with the store
+2019-12-09 20:06:11,006 - root - INFO - Starting Worker
+2019-12-09 20:06:11,012 - root - INFO - Client channel established with the store
+2019-12-10 10:11:15,408 - root - INFO - Starting Worker
+2019-12-10 10:11:15,425 - root - INFO - Client channel established with the store
+2019-12-10 10:13:18,046 - root - INFO - Starting Worker
+2019-12-10 10:13:18,051 - root - INFO - Client channel established with the store
+2019-12-10 11:04:09,478 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not None
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\worker\worker_servicer.py", line 30, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not None
+2019-12-10 11:13:51,254 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not None
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\worker\worker_servicer.py", line 30, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not None
+2019-12-10 11:14:48,875 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not None
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\worker\worker_servicer.py", line 30, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not None
+2019-12-10 11:16:16,261 - root - INFO - Starting Worker
+2019-12-10 11:16:16,265 - root - INFO - Client channel established with the store
+2019-12-10 11:16:32,823 - root - INFO - Starting Worker
+2019-12-10 11:16:32,827 - root - INFO - Client channel established with the store
+2019-12-10 11:16:32,937 - root - CRITICAL - Failed to start the worker
+2019-12-10 11:16:47,402 - root - INFO - Starting Worker
+2019-12-10 11:16:47,406 - root - INFO - Client channel established with the store
+2019-12-10 11:16:55,234 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not None
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\worker\worker_servicer.py", line 30, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not None
+2019-12-10 11:18:27,379 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not None
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\worker\worker_servicer.py", line 30, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not None
+2019-12-10 13:46:42,400 - root - INFO - Starting Worker
+2019-12-10 13:46:42,403 - root - INFO - Client channel established with the store
+2019-12-10 13:46:54,335 - root - INFO - Starting Worker
+2019-12-10 13:46:54,338 - root - INFO - Client channel established with the store
+2019-12-10 16:36:42,770 - root - INFO - Starting Worker
+2019-12-10 16:36:42,776 - root - INFO - Client channel established with the store
+2019-12-10 16:36:57,879 - root - INFO - Starting Worker
+2019-12-10 16:36:57,885 - root - INFO - Client channel established with the store
+2019-12-10 16:37:08,753 - root - INFO - Starting Worker
+2019-12-10 16:37:08,756 - root - INFO - Client channel established with the store
+2019-12-10 16:57:11,384 - root - INFO - Starting Worker
+2019-12-10 16:57:11,390 - root - INFO - Client channel established with the store
+2019-12-11 00:00:53,440 - root - INFO - Starting Worker
+2019-12-11 11:06:35,852 - root - INFO - Starting Worker
+2019-12-11 11:06:44,191 - root - INFO - Starting Worker
+2019-12-11 11:07:02,972 - root - INFO - Starting Worker
+2019-12-11 11:07:08,555 - root - INFO - Starting Worker
+2019-12-11 11:07:08,601 - root - CRITICAL - Failed to start the worker
+2019-12-11 11:07:12,484 - root - INFO - Starting Worker
+2019-12-11 11:13:01,386 - root - INFO - Starting Worker
+2019-12-11 11:13:05,157 - root - INFO - Starting Worker
+2019-12-11 11:14:51,664 - grpc._server - ERROR - Exception calling application: address
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 56, in connect_to_store
+    connect_datastore(request.address)
+AttributeError: address
+2019-12-11 11:17:25,849 - grpc._server - ERROR - Exception calling application: address
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 56, in connect_to_store
+    connect_datastore(request.address)
+AttributeError: address
+2019-12-11 11:18:38,268 - grpc._server - ERROR - Exception calling application: address
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 56, in connect_to_store
+    connect_datastore(request.address)
+AttributeError: address
+2019-12-11 11:19:34,593 - root - INFO - Starting Worker
+2019-12-11 11:19:40,962 - root - INFO - Starting Worker
+2019-12-11 11:19:50,102 - grpc._server - ERROR - Exception calling application: address
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 55, in connect_to_store
+    print('connect to store ', request.address)
+AttributeError: address
+2019-12-11 11:21:05,392 - grpc._server - ERROR - Exception calling application: address
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 55, in connect_to_store
+    print('connect to store ', request.address)
+AttributeError: address
+2019-12-11 11:21:32,663 - root - INFO - Starting Worker
+2019-12-11 11:21:34,621 - root - INFO - Starting Worker
+2019-12-11 11:21:36,589 - grpc._server - ERROR - Exception calling application: address
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 56, in connect_to_store
+    connect_datastore(request.address)
+AttributeError: address
+2019-12-11 11:22:12,718 - root - INFO - Starting Worker
+2019-12-11 11:22:16,910 - root - INFO - Starting Worker
+2019-12-11 11:22:26,659 - root - INFO - Client channel established with the store
+2019-12-11 11:22:26,659 - grpc._common - ERROR - Exception serializing message!
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_common.py", line 85, in _transform
+    return transformer(message)
+TypeError: descriptor 'SerializeToString' requires a 'google.protobuf.pyext._message.CMessage' object but received a 'NoneType'
+2019-12-11 11:24:22,602 - root - INFO - Starting Worker
+2019-12-11 11:24:24,401 - root - INFO - Starting Worker
+2019-12-11 11:24:26,320 - root - INFO - Client channel established with the store
+2019-12-11 11:24:26,326 - root - INFO - Client channel established with the store
+2019-12-11 11:24:26,407 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:26:44,818 - root - INFO - Client channel established with the store
+2019-12-11 11:26:44,820 - root - INFO - Client channel established with the store
+2019-12-11 11:26:44,842 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:28:17,602 - root - INFO - Starting Worker
+2019-12-11 11:28:20,101 - root - INFO - Starting Worker
+2019-12-11 11:28:35,557 - root - INFO - Client channel established with the store
+2019-12-11 11:28:35,560 - root - INFO - Client channel established with the store
+2019-12-11 11:28:35,583 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:31:52,228 - root - INFO - Client channel established with the store
+2019-12-11 11:31:52,236 - root - INFO - Client channel established with the store
+2019-12-11 11:31:52,258 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:33:18,095 - root - INFO - Client channel established with the store
+2019-12-11 11:33:18,102 - root - INFO - Client channel established with the store
+2019-12-11 11:33:18,126 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:33:42,151 - root - INFO - Client channel established with the store
+2019-12-11 11:33:42,153 - root - INFO - Client channel established with the store
+2019-12-11 11:33:42,184 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:35:06,335 - root - INFO - Client channel established with the store
+2019-12-11 11:35:06,343 - root - INFO - Client channel established with the store
+2019-12-11 11:35:06,363 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:35:43,382 - root - INFO - Client channel established with the store
+2019-12-11 11:35:43,383 - root - INFO - Client channel established with the store
+2019-12-11 11:35:43,407 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:45:40,231 - root - INFO - Client channel established with the store
+2019-12-11 11:45:40,240 - root - INFO - Client channel established with the store
+2019-12-11 11:45:40,264 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:47:17,705 - root - INFO - Client channel established with the store
+2019-12-11 11:47:17,712 - root - INFO - Client channel established with the store
+2019-12-11 11:47:17,733 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:47:36,357 - root - INFO - Client channel established with the store
+2019-12-11 11:47:36,359 - root - INFO - Client channel established with the store
+2019-12-11 11:47:36,383 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:48:26,033 - root - INFO - Client channel established with the store
+2019-12-11 11:48:26,041 - root - INFO - Client channel established with the store
+2019-12-11 11:48:26,063 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:48:49,779 - root - INFO - Client channel established with the store
+2019-12-11 11:48:49,786 - root - INFO - Client channel established with the store
+2019-12-11 11:48:49,811 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:49:06,780 - root - INFO - Client channel established with the store
+2019-12-11 11:49:06,789 - root - INFO - Client channel established with the store
+2019-12-11 11:49:06,819 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:49:39,996 - root - INFO - Client channel established with the store
+2019-12-11 11:49:40,005 - root - INFO - Client channel established with the store
+2019-12-11 11:49:40,031 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:50:47,312 - root - INFO - Client channel established with the store
+2019-12-11 11:50:47,320 - root - INFO - Client channel established with the store
+2019-12-11 11:50:47,343 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:50:53,970 - root - INFO - Starting Worker
+2019-12-11 11:50:57,502 - root - INFO - Starting Worker
+2019-12-11 11:51:00,223 - root - INFO - Starting Worker
+2019-12-11 11:51:02,553 - root - INFO - Client channel established with the store
+2019-12-11 11:51:02,560 - root - INFO - Client channel established with the store
+2019-12-11 11:51:02,582 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:51:36,329 - root - INFO - Client channel established with the store
+2019-12-11 11:51:36,335 - root - INFO - Client channel established with the store
+2019-12-11 11:51:36,357 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:52:36,713 - root - INFO - Client channel established with the store
+2019-12-11 11:52:36,715 - root - INFO - Client channel established with the store
+2019-12-11 11:52:36,742 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:56:50,519 - root - INFO - Client channel established with the store
+2019-12-11 11:56:50,527 - root - INFO - Client channel established with the store
+2019-12-11 11:57:04,972 - root - INFO - Client channel established with the store
+2019-12-11 11:57:04,981 - root - INFO - Client channel established with the store
+2019-12-11 11:57:05,003 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:57:48,661 - root - INFO - Client channel established with the store
+2019-12-11 11:57:48,668 - root - INFO - Client channel established with the store
+2019-12-11 11:57:48,691 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:58:13,644 - root - INFO - Client channel established with the store
+2019-12-11 11:58:13,652 - root - INFO - Client channel established with the store
+2019-12-11 11:58:13,674 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:59:23,609 - root - INFO - Client channel established with the store
+2019-12-11 11:59:23,617 - root - INFO - Client channel established with the store
+2019-12-11 11:59:23,642 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 11:59:29,065 - root - INFO - Client channel established with the store
+2019-12-11 11:59:29,073 - root - INFO - Client channel established with the store
+2019-12-11 11:59:29,099 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:01:26,290 - root - INFO - Client channel established with the store
+2019-12-11 12:01:26,296 - root - INFO - Client channel established with the store
+2019-12-11 12:01:26,316 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:01:53,971 - root - INFO - Client channel established with the store
+2019-12-11 12:01:53,974 - root - INFO - Client channel established with the store
+2019-12-11 12:01:54,004 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:02:29,893 - root - INFO - Client channel established with the store
+2019-12-11 12:02:29,894 - root - INFO - Client channel established with the store
+2019-12-11 12:02:29,915 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:02:38,561 - root - INFO - Client channel established with the store
+2019-12-11 12:02:38,569 - root - INFO - Client channel established with the store
+2019-12-11 12:02:38,590 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:03:16,822 - root - INFO - Client channel established with the store
+2019-12-11 12:03:16,831 - root - INFO - Client channel established with the store
+2019-12-11 12:03:16,854 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:03:44,775 - root - INFO - Client channel established with the store
+2019-12-11 12:03:44,782 - root - INFO - Client channel established with the store
+2019-12-11 12:03:44,808 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:04:28,933 - root - INFO - Client channel established with the store
+2019-12-11 12:04:28,939 - root - INFO - Client channel established with the store
+2019-12-11 12:04:28,959 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:04:44,276 - root - INFO - Client channel established with the store
+2019-12-11 12:04:44,284 - root - INFO - Client channel established with the store
+2019-12-11 12:04:44,300 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:04:53,882 - root - INFO - Client channel established with the store
+2019-12-11 12:04:53,884 - root - INFO - Client channel established with the store
+2019-12-11 12:04:53,899 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:05:13,869 - root - INFO - Client channel established with the store
+2019-12-11 12:05:13,872 - root - INFO - Client channel established with the store
+2019-12-11 12:05:13,886 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:05:49,633 - root - INFO - Client channel established with the store
+2019-12-11 12:05:49,640 - root - INFO - Client channel established with the store
+2019-12-11 12:05:49,656 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:06:25,453 - root - INFO - Client channel established with the store
+2019-12-11 12:06:25,455 - root - INFO - Client channel established with the store
+2019-12-11 12:06:25,470 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:06:51,249 - root - INFO - Client channel established with the store
+2019-12-11 12:06:51,256 - root - INFO - Client channel established with the store
+2019-12-11 12:06:51,272 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:07:04,309 - root - INFO - Client channel established with the store
+2019-12-11 12:07:04,319 - root - INFO - Client channel established with the store
+2019-12-11 12:07:04,335 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:07:22,964 - root - INFO - Client channel established with the store
+2019-12-11 12:07:22,966 - root - INFO - Client channel established with the store
+2019-12-11 12:07:22,981 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:08:00,355 - root - INFO - Client channel established with the store
+2019-12-11 12:08:00,363 - root - INFO - Client channel established with the store
+2019-12-11 12:08:00,377 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:08:24,250 - root - INFO - Client channel established with the store
+2019-12-11 12:08:24,257 - root - INFO - Client channel established with the store
+2019-12-11 12:08:24,272 - grpc._server - ERROR - Exception calling application: name 'FunctionType' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "worker.py", line 64, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'FunctionType' is not defined
+2019-12-11 12:09:27,912 - root - INFO - Starting Worker
+2019-12-11 12:09:30,153 - root - INFO - Starting Worker
+2019-12-11 12:09:39,689 - root - INFO - Client channel established with the store
+2019-12-11 12:09:39,696 - root - INFO - Client channel established with the store

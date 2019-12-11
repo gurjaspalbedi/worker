@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from concurrent import futures
+from types import FunctionType
 from messages import welcome
 import argparse
 import sys
@@ -11,7 +12,6 @@ import time
 import collections
 import ast
 from multiprocessing import Process
-from worker_servicer import WokerServicer
 from configuration import (
     worker_list,
     inverted_index_path,
@@ -50,9 +50,51 @@ servers = []
 store_stub = None
 
 
-def connect_datastore():
+class WokerServicer(worker_pb2_grpc.WorkerServicer):
+
+    def connect_to_store(self, request, context):
+        connect_datastore(request.ip, request.port)
+        response = worker_pb2.connection_response()
+        response.data  = "1"
+        return response
+    
+    def worker_map(self, request, context):
+        #https://philip-trauner.me/blog/post/python-tips-dynamic-function-definition
+        execCode = compile(request.map_function, "<string>", 'exec')
+        map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+        result = map_func(request.file_name, request.lines)
+        response = worker_pb2.mapper_response()
+        reponse_list = []
+        tup = worker_pb2.tuple()
+        for key,value in result:
+            tup = worker_pb2.tuple()
+            tup.key = key
+            tup.value = value
+            reponse_list.append(tup)
+        response.result.extend(reponse_list)
+        return response
+    
+    def worker_reducer(self, request, context):
+        print('in reducer')
+        response = worker_pb2.reducer_response()
+        #https://philip-trauner.me/blog/post/python-tips-dynamic-function-definition
+        execCode2 = compile(request.reducer_function, "string", 'exec')
+        red_func = FunctionType(execCode2.co_consts[0], globals(), "foo") 
+        result = red_func(list(request.result))
+        print(result)
+        for value, key in result.items():
+            response.result.add(key = str(value), value= str(key))
+        print(response)
+        return response
+    
+    def ping(self, request, context):
+        response = worker_pb2.ping_response()
+        response.data = f"Yes I am listening on port {request.data}"
+        return response
+
+def connect_datastore(ip, port):
     global store_stub
-    channel = grpc.insecure_channel(f'127.0.0.1:{DATA_STORE_PORT}')
+    channel = grpc.insecure_channel(f'{ip}:{port}')
     store_stub =  store_pb2_grpc.GetSetStub(channel)
     log.write('Client channel established with the store', 'info')
     
@@ -129,7 +171,7 @@ def main(port):
 
     log.write("Starting Worker", "info")
 
-    connect_datastore()
+    # connect_datastore()
     init_worker(port, cluster_id = 0)
 
 
