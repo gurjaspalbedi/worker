@@ -2,6 +2,7 @@
 
 
 def reduce_func(reducer_list):
+    print('in reducer function')
     py_counter = {}
     for tup in reducer_list:
         py_counter[tup.key] = py_counter.get(tup.key,0) +  1

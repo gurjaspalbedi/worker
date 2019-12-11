@@ -2,6 +2,7 @@
 
 from concurrent import futures
 from messages import welcome
+import argparse
 import sys
 import worker_pb2_grpc
 import worker_pb2
@@ -34,8 +35,7 @@ from constants import (
     FINAL_STAGE,
     TASK_INVERTED_INDEX,
     TASK_WORD_COUNT,
-    DATA_STORE_PORT,
-    WORKER_PORT
+    DATA_STORE_PORT
 )
 
 from dependency_manager import Dependencies
@@ -64,7 +64,6 @@ def command_to_store(value, stage = INITIAL_STAGE):
     request.stage = stage 
     response = store_stub.operation(request)
     return response.data
-
 
 
 def ping_server(port, ip="127.0.0.1"):
@@ -105,8 +104,7 @@ def convert_to_proto_format(list_of_tuples):
     return response_list
 
 
-def init_worker(port = WORKER_PORT, cluster_id = 0):
-    print(port)
+def init_worker(port, cluster_id = 0):
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=1))
     worker_pb2_grpc.add_WorkerServicer_to_server(
             WokerServicer(), server)
@@ -137,7 +135,8 @@ def main(port):
 
 
 if __name__ == "__main__":
-    print(sys.argv)
-    port = int(sys.argv[1]) if len(sys.argv) >1 else WORKER_PORT
-    main(port)
+    parser = argparse.ArgumentParser(description='Worker for the map reduce')
+    parser.add_argument("port", help="port for the worker", type=int)
+    args = parser.parse_args()
+    main(args.port)
 
