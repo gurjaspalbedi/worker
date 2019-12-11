@@ -147,6 +147,7 @@ def convert_to_proto_format(list_of_tuples):
 
 
 def init_worker(port, cluster_id = 0):
+    time.sleep(20)
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=1))
     worker_pb2_grpc.add_WorkerServicer_to_server(
             WokerServicer(), server)
